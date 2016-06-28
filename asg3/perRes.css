@@ -1,0 +1,324 @@
+body{
+  background-image: url("images/page-bg.jpg");
+}
+.head{
+  background-image:url("images/body-bg.png");
+  height:80px;
+  width:auto;
+  padding: 1px;
+  margin-right:150px;
+  margin-left:150px;
+
+}
+.leftone{
+  background-image: url("images/logo.png");
+  background-repeat:no-repeat;
+  margin-top:20px;
+  margin-left:50px;
+  height:34px;
+  width:auto;
+
+}
+.flex-top{ display:flex; justify-content:flex-end; margin-top:-47px; margin-right:50px;}
+.about{
+  background-color: rgba(20, 20, 20, 0.2);
+  margin-left:150px;
+  margin-right:150px;
+  height:1400px;
+  width:auto;
+  padding:1px;
+}
+.headingabout{
+  margin-left:40px;
+}
+.headingabout p{
+  font-size:50px;
+  color:rgba(250, 250, 250, 0.3);
+}
+.socialicon{
+  height:40px;
+  width:auto;
+  display:flex;
+  justify-content:flex-end;
+  margin-top:-85px;
+  margin-right:20px;
+}
+#sfb{
+  display:flex;
+  height:30px;
+  width:30px;
+  background-image: url("images/sm-facebook-icon.png");
+  background-repeat: no-repeat;
+  padding-right: 10px;
+}
+#stw{
+  display:flex;
+  height:30px;
+  width:30px;
+  background-image: url("images/sm-twitter-icon.png");
+  background-repeat: no-repeat;
+  padding-right: 10px;
+
+}
+#sln{
+  display:flex;
+  height:30px;
+  width:30px;
+  background-image: url("images/sm-linkedin-icon.png");
+  background-repeat: no-repeat;
+  padding-right: 30px;
+
+}
+
+#about{ display:flex;padding: 2px; padding-left: 20px;}
+#experience{ display:flex;padding: 2px;padding-left: 20px;}
+#work{ display:flex;padding: 2px;padding-left: 20px;}
+#connect{ display:flex;padding: 2px;padding-left: 20px;}
+#about p{
+  color:rgba(255, 255, 255, 0.4);
+}
+#experience p{
+  color:rgba(255, 255, 255, 0.4);
+}
+#work p{
+  color:rgba(255, 255, 255, 0.4);
+}
+#connect p{
+  color:rgba(255, 255, 255, 0.4);
+}
+#firstdivide{
+  background-image:url("images/divider.png");
+  margin-top:8px;
+  margin-left:40px;
+  margin-right: 50px;
+  height:10px;
+  width:auto;
+}
+.myphoto{
+  background-image: url(images/profileImage/profImage2.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  margin-top:40px;
+  margin-left:40px;
+  height:350px;
+  width:250px;
+}
+.mydata{
+  height:250px;
+  width:auto;
+  margin-left: 340px;
+  margin-right: 50px;
+  margin-top: -360px;
+}
+.mydata p{
+  color:rgba(255, 255, 255, 0.4);
+  font-style: oblique;
+  font-size: 24px;
+
+}
+.boldhead{
+  color:rgba(255, 255, 255, 0.4);
+  font-style: oblique;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.boldhead p{
+  color:rgba(255, 255, 255, 0.4);
+  font-size: 18px;
+  margin-left: 200px;
+  margin-top:-23px;
+}
+.aboutimages{
+  display: flex;
+  width:auto;
+  height:100px;
+  margin-left:340px;
+  margin-top: -17px;
+  margin-right: 50px;
+  justify-content: flex-start;
+
+}
+#brush{
+  display: flex;
+  background-image: url(images/icon-1.png);
+  background-repeat: no-repeat;
+  height:110px;
+  width: 110px;
+  margin-right: 30px;
+}
+#phone{
+  display: flex;
+  background-image: url(images/icon-2.png);
+  background-repeat: no-repeat;
+  height:110px;
+  width: 110px;
+  margin-right: 30px;
+
+}
+#moreimages{
+  display: flex;
+  background-image: url(images/icon-4.png);
+  background-repeat: no-repeat;
+  height:110px;
+  width: 110px;
+  margin-right: 30px;
+
+}
+#vedio{
+  display: flex;
+  background-image: url(images/icon-3.png);
+  background-repeat: no-repeat;
+  height:110px;
+  width: 110px;
+  margin-right: 30px;
+
+}
+.seconddivide{
+  background-image:url("images/divider.png");
+  margin-top:38px;
+  margin-left:40px;
+  margin-right: 50px;
+  height:10px;
+  width:auto;
+}
+.datacoint{
+  margin-left: 40px;
+  margin-right: 50px;
+  display: flex;
+
+}
+.data{
+  padding: 1px;
+  display: flex;
+  margin-top: 30px;
+  display:inline-flex;
+  margin-top: 40px;
+  margin-left: 24px;
+  width:272px;
+  height:300px;
+}
+#center{
+  flex-grow: 1;
+}
+#right{
+  flex-grow: 1;
+  margin-left: 0px;
+  flex-flow: column;
+}
+#left{
+  flex-grow: 1;
+}
+
+.drh{
+  color: purple;
+  display:flex;
+  text-align: center;
+  font-size: 24px;
+}
+.dch{
+  color: purple;
+  display:flex;
+  text-align: center;
+  font-size: 24px;
+}
+#edu{
+  margin-left: auto;
+  display: flex;
+  color:rgba(255, 255, 255, 0.4);
+  font-size: 32px;
+  text-align: center;
+}
+#skill{
+  margin-left: auto;
+  display: flex;
+  color:rgba(255, 255, 255, 0.4);
+  font-size: 32px;
+  text-align: center;
+}
+#course{
+  margin-left: auto;
+  display: flex;
+  color:rgba(255, 255, 255, 0.4);
+  font-size: 32px;
+  text-align: center;
+}
+.drb{
+  color:rgba(255, 255, 255, 0.4);
+  display: flex;
+  font-size: 20px;
+}
+.thirddivide{
+  background-image:url("images/divider.png");
+  margin-top:38px;
+  margin-left:40px;
+  margin-right: 50px;
+  height:10px;
+  width:auto;
+}
+.connect{
+  margin-top: 40px;
+  margin-left: 40px;
+  font-size:50px;
+  color:rgba(250, 250, 250, 0.3);
+
+}
+.fourthdivide{
+  background-image:url("images/divider.png");
+  margin-top:38px;
+  margin-left:40px;
+  margin-right: 50px;
+  height:10px;
+  width:auto;
+}
+#follow{
+  font-size: 24px;
+}
+.follow{
+  margin-left: 200px;
+  display: flex;}
+.followicon{
+  display: inline-flex;
+  width:25px;;
+  height:25px;
+
+}
+#img1{
+  background-image: url(images/sm-dribble-icon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#img2{
+  background-image: url(images/sm-facebook-icon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#img3{
+  background-image: url(images/sm-google-icon.png);
+  background-position: center;
+
+  background-repeat: no-repeat;
+}
+#img4{
+  background-image: url(images/sm-linkedin-icon.png);
+  background-position: center;
+
+  background-repeat: no-repeat;
+}
+#img5{
+  background-image: url(images/sm-twitter-icon.png);
+  background-repeat: no-repeat;
+
+  background-position: center;
+}
+#img6{
+  background-image: url(images/sm-vimeo-icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+#img7{
+  background-image: url(images/sm-youtube-icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
