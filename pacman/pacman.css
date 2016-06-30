@@ -1,0 +1,121 @@
+body{
+  margin: 2%;
+  background-color: black;
+  z-index:2;
+}
+
+.pacmanBody{
+  box-sizing: border-box;
+  padding: 2px;
+  position:relative;
+  -webkit-animation:move 7s infinite;
+}
+.eye{
+  position: absolute;
+  height:5px;
+  width:5px;
+  background-color: white;
+  border:5px solid black;;
+  border-radius: 20px;
+  margin-left: 45px;
+  margin-top:10px;
+  z-index: 3;
+}
+.upperbody{
+  height:102px;
+  width:102px;
+  background-color:yellow;
+  border-radius:60px;
+  clip:rect(0px,100px,50px,0px);
+  position: absolute;
+  transform: rotateZ(-30deg);
+  -webkit-animation:upperbody 1s infinite;
+
+}
+.lowerbody{
+  height:100px;
+  width:100px;
+  background-color:yellow;
+  border-radius:60px;
+  position: absolute;
+  clip:rect(50px,100px,100px,0px);
+  transform:rotateZ(30deg);
+  -webkit-animation:lowerbody 1s infinite;
+}
+.ball{
+  position: absolute;
+  height:20px;
+  width:20px;
+  background-color: white;
+  border-radius: 60px;
+  margin-top: 34px;
+  z-index: -4;
+
+}
+#one{
+  margin-left: 30%;
+  background-color: red;
+
+}
+#two{
+  margin-left: 40%;
+  background-color: blue;
+}
+#three{
+  margin-left: 50%;
+  background-color: orange;
+}
+#four{
+  margin-left: 60%;
+  background-color: green;
+}
+.dis{
+  height:100px;
+  width:800px;
+  margin-left: -800px;
+  background-color: black;
+  position: absolute;
+  z-index: 2;
+
+}
+@-webkit-keyframes upperbody{
+  0%{
+    transform:rotateZ(-40deg);
+  }
+  50%{
+    transform: rotateZ(0deg);
+  }
+  100%{
+    transform:rotateZ(-40deg);
+  }
+}
+@-webkit-keyframes lowerbody{
+  0%{
+    transform:rotateZ(40deg);
+  }
+  50%{
+    transform: rotateZ(0deg);
+  }
+  100%{
+    transform:rotateZ(40deg);
+  }
+}
+@-webkit-keyframes move{
+  0%{
+    margin-left:0%;
+    transform: scaleX(1);
+  }
+  49.99%{
+    margin-left: 100%;
+    transform: scaleX(1);
+  }
+
+  50%{
+    margin-right: 0%;
+    transform: scaleX(-1);
+  }
+  100%{
+    margin-right: 100%;
+    transform:scaleX(-1);
+  }
+}
