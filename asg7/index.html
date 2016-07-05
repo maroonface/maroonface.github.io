@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/master.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="displayText">
+      <input type="text" size="13" id="display"></input></div>
+      <div class="firstRow">
+      <button type="button" class="firstRowButton" onclick="setDisplay('7')"><i>7</i></button>
+      <button type="button" class="firstRowButton" onclick="setDisplay('8')"><i>8</button>
+      <button type="button" class="firstRowButton" onclick="setDisplay('9')"><i>9</button>
+      <button type="button" class="firstRowButton" id="operator" onclick="setDisplay('+')"><i>+</button>
+    </div>
+    <div class="secondRow">
+      <button type="button" class="secondRowButton"  onclick="setDisplay('4')"><i>4</button>
+      <button type="button" class="secondRowButton"  onclick="setDisplay('5')"><i>5</button>
+      <button type="button" class="secondRowButton"  onclick="setDisplay('6')"><i>6</button>
+      <button type="button" class="secondRowButton" id="operator" onclick="setDisplay('-')"><i>-</button>
+    </div>
+    <div class="thirdRow">
+      <button type="button" class="thirdRowButton"  onclick="setDisplay('1')"><i>1</button>
+      <button type="button" class="thirdRowButton"  onclick="setDisplay('2')"><i>2</button>
+      <button type="button" class="thirdRowButton"  onclick="setDisplay('3')"><i>3</button>
+      <button type="button" class="thirdRowButton" id="operator"  onclick="setDisplay('*')"><i>*</button>
+    </div>
+    <div class="fourthRow">
+      <button type="button" class="forthRowButton"  onclick="setDispaly('0')"><i>0</button>
+    </div>
+    <div class="lastRow">
+      <button type="button" class="fiveRowButton" id="operator"  onclick="setDisplay('.')"><i>.</button>
+      <button type="button" class="fiveRowButton" id="operator" onclick="setDisplay('/')"><i>/</button>
+      <button type="button" class="fiveRowButton" id="clearButton" onclick="clearDisplay('')"><i>C</button>
+      <button type="button" class="fiveRowButton"  id="calculateButton" onclick="calculate()"><i>=</button>
+    </div>
+    <script src="javascript/cal.js"></script>
+  </body>
+</html>

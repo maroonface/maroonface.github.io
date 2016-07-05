@@ -1,0 +1,256 @@
+body{
+  background-color: rgba(10, 10, 10, 0.1);
+}
+
+*{
+  padding:0px;
+  margin:0px;
+}
+.inner{
+  width: 100%;
+  margin: 20px;
+}
+.leftimage{
+  height:400px;
+  width:30%;
+  float: left;
+}
+#logo-bg{
+  background-image:url(images/logo-bg.png);
+  background-repeat:no-repeat;
+  height: 300px;
+  widht:30%;
+  position: relative;
+  z-index: 4;
+}
+#logo{
+  padding: 10px;
+  box-sizing:border-box;
+  background-image:url(images/logo.png);
+  height: 80px;
+  width:150px;
+  position: absolute;
+  background-repeat:no-repeat;
+  margin-left: 60px;
+  margin-top: 120px;
+}
+nav{
+  float:right;
+  height: auto;
+  width:60%;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  margin-right: 5%;
+}
+nav ul{
+  display: block;
+  list-style: none;
+    color:rgba(180, 10, 10, 1);
+}
+nav li{
+  margin-top: 10px;
+  display: inline-block;
+  text-align:center;
+  font-family: "Book Antiqua", "Palatino Linotype", Georgia, serif;
+  font-weight: bold;}
+nav i{
+  display: block;
+  text-items: center;
+  color:rgba(180, 10, 10, 1);
+  font-size:10px;
+}
+.navline{
+  margin-top: 5px;
+  padding: 10%;
+}
+.left{
+  float:left;
+  width: 33%;
+}
+.center{
+  width: 33%;
+}
+.right{
+  float:right;
+  width: 33%;
+}
+.sectionIntro{
+  margin-right: 5%;
+  margin-top: 10px;
+  float:right;
+  width:60%;
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.sectionIntro h2{
+  text-align: center;
+  font:normal 2em "Hoefler Text", "Baskerville old face", Garamond, "Times New Roman", serif;
+}
+.sectionIntro p{
+  margin-top: 10px;
+}
+.sectionBody{
+  float:right;
+  width:60%;
+  height:auto;
+  margin-right: 5%;
+}
+.sectionheading{
+  display: block;
+}
+.head{
+  display: inline-block;
+  width: 33%
+}
+.sectionheading h2{
+  text-align: center;
+  padding: 5px;
+}
+.sectionBody ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: auto;
+  width: 100%;
+  margin-right: 5%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.sectionBody li{
+
+  display: inline-flex;
+  height: 150px;
+  width: 150px;
+
+}
+.f-adler{
+  background-image: url(images/f-adler.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+.f-holmes{
+  background-image: url(images/f-holmes.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.f-moriarty{
+  background-image: url(images/f-moriarty.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.f-mycroft{
+  background-image: url(images/f-mycroft.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.f-watson{
+  background-image: url(images/f-watson.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.f-winter{
+  background-image: url(images/f-winter.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#secimg{
+  color:rgba(180, 10, 10, 1);
+  font-size: 10px;
+  text-align: center;
+  font-family: "Book Antiqua", "Palatino Linotype", Georgia, serif;
+  font-weight: bold;
+}
+#sectext{
+  color:rgba(180, 10, 10, 1);
+  text-align:center;
+  font-family: "Book Antiqua", "Palatino Linotype", Georgia, serif;
+  font-weight: bold;
+}
+.fotter{
+  width:60%;
+  margin-right:5%;
+  float:right;
+  padding: 10px;
+  margin-top: 20px;
+}
+.fotter p{
+  padding: 10px;
+  box-sizing: border-box;
+  text-align:center;
+}
+#toppara{
+  margin-top: 10px;
+}
+@media screen and (max-width:700px) and (min-width:350px) {
+  nav {
+    margin-left: 0%;
+    width: 100%
+  }
+  .sectionIntro{
+    margin-left: 0%;
+    width: 100%;
+  }
+  .fotter{
+    width:100%;
+  }
+  .sectionBody{
+    margin-left: 0%;
+    width: 100%;
+  }
+  .leftimage{
+    width: 100%;
+  }
+  #logo-bg{
+    margin-left: 15%;
+  }
+  #logo{
+    align-self: center;
+  }
+
+}
+@media screen and (max-width:350px){
+  .leftimage{
+    display: block;
+    width: 100%;
+  }
+
+  nav{
+    margin-left: 0%;
+    width: 100%;
+  }
+  .sectionIntro{
+    margin-left: 0%;
+    width: 100%;
+  }
+  .fotter{
+    width:100%;
+  }
+  .sectionBody{
+    margin-left: 0%;
+    width: 100%;
+  }
+  }
+  @media screen and (max-width:322px){
+
+    .leftimage{
+      display: none;
+    }
+
+    nav li{
+      display: block;
+      text-align: center;
+    }
+    .left{
+      width: 100%;
+    }
+    .center{
+      width: 100%;
+    }
+    .right{
+      width: 100%;
+    }
+
+
+  }
